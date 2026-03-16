@@ -1,0 +1,24 @@
+{
+  "name": "event-dashboard-vercel-app",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "npm run build:data && next dev",
+    "build:data": "python scripts/export_dashboard_snapshot.py",
+    "build": "npm run build:data && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "echarts": "^5.5.1",
+    "echarts-for-react": "^3.0.2",
+    "next": "^14.2.25",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "typescript": "^5.7.3"
+  }
+}

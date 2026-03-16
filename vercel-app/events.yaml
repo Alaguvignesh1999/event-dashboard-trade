@@ -1,0 +1,1203 @@
+taxonomy:
+  FOMC:
+  - Hike
+  - Hold
+  - Cut
+  - Hawkish Surprise
+  - Dovish Surprise
+  - Balance Sheet Shift
+  US Inflation:
+  - CPI Upside
+  - CPI Inline
+  - CPI Downside
+  - Core CPI Upside
+  - PCE Upside
+  - PCE Downside
+  US Labor:
+  - NFP Hot
+  - NFP Neutral
+  - NFP Weak
+  - Unemployment Up Shock
+  - Wage Growth Hot
+  US Growth:
+  - GDP Upside
+  - GDP Downside
+  - Retail Sales Upside
+  - ISM Manufacturing Contraction
+  - ISM Rebound
+  Elections:
+  - US Presidential Incumbent Win
+  - US Presidential Opposition Win
+  - Contested Outcome
+  - Unified Government
+  - Split Government
+  Central Banks ex-US:
+  - ECB Hawkish
+  - ECB Dovish
+  - BOE Hawkish
+  - BOJ Policy Shift
+  Geopolitics:
+  - Military Escalation
+  - Ceasefire/De-escalation
+  - Sanctions Escalation
+  - Shipping Disruption
+  - Energy Infrastructure Shock
+  Commodities/Energy:
+  - OPEC Cut Surprise
+  - OPEC Hike Surprise
+  - Oil Supply Shock
+  - Gas Supply Shock
+  Single Stock Earnings:
+  - Beat+Raise
+  - Beat+Guide Down
+  - Miss+Guide Down
+  - Margin Shock
+  System Stress:
+  - Banking Stress
+  - Liquidity Shock
+  - Sovereign Credit Shock
+events:
+- name: 1973 Oil Embargo
+  date: '1973-10-17'
+  family: Commodities/Energy
+  subtype: Oil Supply Shock
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: US Presidential Election Day 1980
+  date: '1980-11-04'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: US Presidential Election Day 1984
+  date: '1984-11-06'
+  family: Elections
+  subtype: US Presidential Incumbent Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: US Presidential Election Day 1988
+  date: '1988-11-08'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: 1990 Gulf War
+  date: '1990-08-02'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: 1991 Kuwait Oil Fires
+  date: '1991-01-16'
+  family: Geopolitics
+  subtype: Energy Infrastructure Shock
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: US Presidential Election Day 1992
+  date: '1992-11-03'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: US Presidential Election Day 1996
+  date: '1996-11-05'
+  family: Elections
+  subtype: US Presidential Incumbent Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: 1998 Desert Fox
+  date: '1998-12-16'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: US Presidential Election Day 2000
+  date: '2000-11-07'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: 2001 Afghanistan (OEF)
+  date: '2001-10-07'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: 2003 Iraq War
+  date: '2003-03-20'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: US Presidential Election Day 2004
+  date: '2004-11-02'
+  family: Elections
+  subtype: US Presidential Incumbent Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: US Midterm Election 2006
+  date: '2006-11-07'
+  family: Elections
+  subtype: Midterm
+  region: US
+  tags:
+  - election
+  - midterm
+  - house_dem
+  - senate_dem
+  - divided_government
+  notes: federal midterm default tags
+- name: Lehman Collapse
+  date: '2008-09-15'
+  family: System Stress
+  subtype: Banking Stress
+  region: US
+  tags:
+  - banking
+  - liquidity_shock
+  - risk_off
+  notes: Lehman bankruptcy filing date
+- name: US Presidential Election Day 2008
+  date: '2008-11-04'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: US Midterm Election 2010
+  date: '2010-11-02'
+  family: Elections
+  subtype: Midterm
+  region: US
+  tags:
+  - election
+  - midterm
+  - house_rep
+  - senate_dem
+  - divided_government
+  notes: federal midterm default tags
+- name: 2011 Libya
+  date: '2011-03-19'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: US Presidential Election Day 2012
+  date: '2012-11-06'
+  family: Elections
+  subtype: US Presidential Incumbent Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: 2014 ISIS/Mosul
+  date: '2014-06-10'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: US Midterm Election 2014
+  date: '2014-11-04'
+  family: Elections
+  subtype: Midterm
+  region: US
+  tags:
+  - election
+  - midterm
+  - house_rep
+  - senate_rep
+  - divided_government
+  notes: federal midterm default tags
+- name: US Presidential Election Day 2016
+  date: '2016-11-08'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: US Election 2016
+  date: '2016-11-08'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - risk
+  notes: ''
+- name: OPEC Production Cut Agreement
+  date: '2016-11-30'
+  family: Commodities/Energy
+  subtype: OPEC Cut Surprise
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: 2017 Syria Strikes
+  date: '2017-04-07'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: US Midterm Election 2018
+  date: '2018-11-06'
+  family: Elections
+  subtype: Midterm
+  region: US
+  tags:
+  - election
+  - midterm
+  - house_dem
+  - senate_rep
+  - divided_government
+  notes: federal midterm default tags
+- name: FOMC Decision 2019-01-30
+  date: '2019-01-30'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2019-03-20
+  date: '2019-03-20'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2019-05-01
+  date: '2019-05-01'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2019-06-19
+  date: '2019-06-19'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2019-07-31
+  date: '2019-07-31'
+  family: FOMC
+  subtype: Cut
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2019-09-18
+  date: '2019-09-18'
+  family: FOMC
+  subtype: Cut
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2019-10-30
+  date: '2019-10-30'
+  family: FOMC
+  subtype: Cut
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2019-12-11
+  date: '2019-12-11'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2020-01-29
+  date: '2020-01-29'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: 2020 COVID-19 PHEIC
+  date: '2020-01-30'
+  family: Geopolitics
+  subtype: Pandemic
+  region: Global
+  tags:
+  - pandemic
+  - risk_off
+  notes: stress test scenario
+- name: FOMC Emergency Cut 2020-03-03
+  date: '2020-03-03'
+  family: FOMC
+  subtype: Cut
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: COVID Emergency FOMC Cut
+  date: '2020-03-15'
+  family: FOMC
+  subtype: Cut
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Emergency Cut 2020-03-15
+  date: '2020-03-15'
+  family: FOMC
+  subtype: Cut
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2020-03-18
+  date: '2020-03-18'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: OPEC+ Historic Supply Cut Deal
+  date: '2020-04-12'
+  family: Commodities/Energy
+  subtype: OPEC Cut Surprise
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: FOMC Decision 2020-04-29
+  date: '2020-04-29'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2020-06-10
+  date: '2020-06-10'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2020-07-29
+  date: '2020-07-29'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2020-09-16
+  date: '2020-09-16'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: US Election 2020
+  date: '2020-11-03'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - risk
+  notes: ''
+- name: US Presidential Election Day 2020
+  date: '2020-11-03'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: FOMC Decision 2020-11-05
+  date: '2020-11-05'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2020-12-16
+  date: '2020-12-16'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2021-01-27
+  date: '2021-01-27'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2021-03-17
+  date: '2021-03-17'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2021-04-28
+  date: '2021-04-28'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2021-06-16
+  date: '2021-06-16'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: OPEC+ Output Hike Decision
+  date: '2021-07-18'
+  family: Commodities/Energy
+  subtype: OPEC Hike Surprise
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: FOMC Decision 2021-07-28
+  date: '2021-07-28'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2021-09-22
+  date: '2021-09-22'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2021-11-03
+  date: '2021-11-03'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2021-12-15
+  date: '2021-12-15'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2022-01-26
+  date: '2022-01-26'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: Russia-Ukraine Invasion
+  date: '2022-02-24'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Global
+  tags:
+  - geopolitics
+  - energy
+  notes: ''
+- name: 2022 Russia-Ukraine
+  date: '2022-02-24'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: FOMC Decision 2022-03-16
+  date: '2022-03-16'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2022-05-04
+  date: '2022-05-04'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2022-06-15
+  date: '2022-06-15'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2022-07-27
+  date: '2022-07-27'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2022-09-21
+  date: '2022-09-21'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: OPEC+ 2M bpd Cut Announcement
+  date: '2022-10-05'
+  family: Commodities/Energy
+  subtype: OPEC Cut Surprise
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: FOMC Decision 2022-11-02
+  date: '2022-11-02'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: US Midterm Election 2022
+  date: '2022-11-08'
+  family: Elections
+  subtype: Midterm
+  region: US
+  tags:
+  - election
+  - midterm
+  - house_rep
+  - senate_dem
+  - divided_government
+  notes: federal midterm default tags
+- name: EU Russian Seaborne Oil Ban Starts
+  date: '2022-12-05'
+  family: Commodities/Energy
+  subtype: Oil Supply Shock
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: FOMC Decision 2022-12-14
+  date: '2022-12-14'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2023-02-01
+  date: '2023-02-01'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2023-03-22
+  date: '2023-03-22'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: OPEC+ Voluntary Cuts Announcement
+  date: '2023-04-02'
+  family: Commodities/Energy
+  subtype: OPEC Cut Surprise
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: FOMC Decision 2023-05-03
+  date: '2023-05-03'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2023-06-14
+  date: '2023-06-14'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: Saudi Voluntary 1M bpd Cut Extension
+  date: '2023-07-03'
+  family: Commodities/Energy
+  subtype: Oil Supply Shock
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: FOMC Decision 2023-07-26
+  date: '2023-07-26'
+  family: FOMC
+  subtype: Hike
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2023-09-20
+  date: '2023-09-20'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2023-11-01
+  date: '2023-11-01'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: OPEC+ Additional Voluntary Cuts
+  date: '2023-11-30'
+  family: Commodities/Energy
+  subtype: OPEC Cut Surprise
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: FOMC Decision 2023-12-13
+  date: '2023-12-13'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: 2023 Red Sea Crisis
+  date: '2023-12-19'
+  family: Geopolitics
+  subtype: Shipping Disruption
+  region: Global
+  tags:
+  - geopolitics
+  - shock
+  notes: ''
+- name: FOMC Decision 2024-01-31
+  date: '2024-01-31'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: OPEC+ Extends Voluntary Cuts
+  date: '2024-03-03'
+  family: Commodities/Energy
+  subtype: OPEC Cut Surprise
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: FOMC Decision 2024-03-20
+  date: '2024-03-20'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2024-05-01
+  date: '2024-05-01'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: OPEC+ Meeting Cut Roll-Over and Unwind Plan
+  date: '2024-06-02'
+  family: Commodities/Energy
+  subtype: OPEC Cut Surprise
+  region: Global
+  tags:
+  - energy
+  - oil
+  - opec
+  notes: ''
+- name: FOMC Decision 2024-06-12
+  date: '2024-06-12'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2024-07-31
+  date: '2024-07-31'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2024-09-18
+  date: '2024-09-18'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: Trump Victory 2024
+  date: '2024-11-05'
+  family: Elections
+  subtype: US Presidential Opposition Win
+  region: US
+  tags:
+  - election
+  - presidential
+  - risk
+  notes: scenario runner event
+- name: US Election 2024
+  date: '2024-11-05'
+  family: Elections
+  subtype: US Presidential Incumbent Win
+  region: US
+  tags:
+  - election
+  - risk
+  notes: ''
+- name: US Presidential Election Day 2024
+  date: '2024-11-05'
+  family: Elections
+  subtype: US Presidential Incumbent Win
+  region: US
+  tags:
+  - election
+  - us
+  - presidential
+  notes: ''
+- name: FOMC Decision 2024-11-07
+  date: '2024-11-07'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: FOMC Decision 2024-12-18
+  date: '2024-12-18'
+  family: FOMC
+  subtype: Hold
+  region: US
+  tags:
+  - fomc
+  - rates
+  notes: ''
+- name: PCE Release 2025-01-31
+  date: '2025-01-31'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: PCE Release 2025-02-28
+  date: '2025-02-28'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: 2026 CPI
+  date: '2025-03-12'
+  family: US Inflation
+  subtype: CPI Downside
+  region: US
+  tags:
+  - cpi
+  - inflation
+  - release
+  notes: actual=2.8; consensus=2.9; unit=percent_yoy
+- name: PCE Release 2025-03-28
+  date: '2025-03-28'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: PCE Release 2025-04-30
+  date: '2025-04-30'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: PCE Release 2025-05-30
+  date: '2025-05-30'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: 12-Day War Start
+  date: '2025-06-13'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Middle East
+  tags:
+  - geopolitics
+  - military_conflict
+  - energy_shock
+  notes: user-specified start date
+- name: 2025 Middle East War Start
+  date: '2025-06-13'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Middle East
+  tags:
+  - geopolitics
+  - military_conflict
+  - energy_shock
+  notes: scenario runner event
+- name: PCE Release 2025-06-27
+  date: '2025-06-27'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: PCE Release 2025-07-31
+  date: '2025-07-31'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: PCE Release 2025-08-29
+  date: '2025-08-29'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: PCE Release 2025-09-26
+  date: '2025-09-26'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: PCE Release 2025-10-31
+  date: '2025-10-31'
+  family: US Inflation (PCE)
+  subtype: PCE Inline
+  region: US
+  tags:
+  - pce
+  - inflation
+  - release
+  notes: unit=percent_yoy
+- name: NFP Release (November 2025)
+  date: '2025-12-16'
+  family: US Labor
+  subtype: NFP Neutral
+  region: US
+  tags:
+  - nfp
+  - employment
+  - release
+  notes: ''
+- name: CPI Release (November 2025)
+  date: '2025-12-18'
+  family: US Inflation
+  subtype: CPI Inline
+  region: US
+  tags:
+  - cpi
+  - inflation
+  - release
+  notes: ''
+- name: NFP Release (December 2025)
+  date: '2026-01-09'
+  family: US Labor
+  subtype: NFP Neutral
+  region: US
+  tags:
+  - nfp
+  - employment
+  - release
+  notes: ''
+- name: CPI Release (December 2025)
+  date: '2026-01-13'
+  family: US Inflation
+  subtype: CPI Inline
+  region: US
+  tags:
+  - cpi
+  - inflation
+  - release
+  notes: ''
+- name: NFP Release (January 2026)
+  date: '2026-02-11'
+  family: US Labor
+  subtype: NFP Neutral
+  region: US
+  tags:
+  - nfp
+  - employment
+  - release
+  notes: ''
+- name: CPI Release (January 2026)
+  date: '2026-02-13'
+  family: US Inflation
+  subtype: CPI Inline
+  region: US
+  tags:
+  - cpi
+  - inflation
+  - release
+  notes: ''
+- name: 2026 Israel-Iran War Start
+  date: '2026-02-28'
+  family: Geopolitics
+  subtype: Military Escalation
+  region: Middle East
+  tags:
+  - geopolitics
+  - military_conflict
+  - energy_shock
+  notes: scenario runner event
+- name: Strait of Hormuz Tension Escalation
+  date: '2026-03-02'
+  family: Geopolitics
+  subtype: Shipping Disruption
+  region: Middle East
+  tags:
+  - geopolitics
+  - shipping
+  - energy
+  notes: recent geopolitical sample anchor
+- name: NFP Release (February 2026)
+  date: '2026-03-06'
+  family: US Labor
+  subtype: NFP Neutral
+  region: US
+  tags:
+  - nfp
+  - employment
+  - release
+  notes: ''
+- name: CPI Release (February 2026)
+  date: '2026-03-11'
+  family: US Inflation
+  subtype: CPI Inline
+  region: US
+  tags:
+  - cpi
+  - inflation
+  - release
+  notes: ''
+- name: US CPI Release (Feb 2026, scenario 2.8 vs 2.9)
+  date: '2026-03-11'
+  family: US Inflation
+  subtype: CPI Downside
+  region: US
+  tags:
+  - cpi
+  - inflation
+  - macro
+  notes: actual=2.8; consensus=2.9; unit=percent_yoy

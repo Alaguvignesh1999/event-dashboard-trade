@@ -1,0 +1,8 @@
+pandas
+numpy
+plotly
+ipywidgets
+yfinance
+python-dateutil
+PyYAML
+requests

@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "npm run build:data && next dev",
-    "build:data": "python scripts/export_dashboard_snapshot.py",
+    "build:data": "python -m pip install -r requirements-data.txt && python scripts/export_dashboard_snapshot.py",
     "build": "npm run build:data && next build",
     "start": "next start"
   },
